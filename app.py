@@ -3,7 +3,7 @@ import pandas as pd
 from werkzeug.utils import secure_filename
 import os
 
-app = Flask(__name__)
+app = app = Flask(__name__, static_url_path='/static', static_folder='static')
 app.secret_key = 'supersecretkey'
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['ALLOWED_EXTENSIONS'] = {'xlsx'}
