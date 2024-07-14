@@ -1,16 +1,53 @@
-.{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.bg-dark{
-	background-color: #75767B;
+body {
+    background: linear-gradient(135deg, #f0f2f5, #c3dfe2);  /* Example gradient background */
+    font-family: 'Arial', sans-serif;
 }
 
-
-.mt-50{
-	margin-top: 50px;
+.navbar {
+    background-color: #007bff;  /* Bootstrap primary color */
 }
-#canvas{
-    border: 2px solid black;
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;  /* White background for the card */
+}
+
+.card-title {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.alert-warning {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-success {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-success:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.container {
+    margin-top: 50px;
 }
